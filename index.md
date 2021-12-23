@@ -1,3 +1,5 @@
+[libro](libro.md)&nbsp;-&nbsp;[teoría](teoria.md)
+
 ### Introducción
 Este sitio contiene material a fin de dar tus primeros pasos en el mundo de la programación.
 <br/>
