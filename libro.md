@@ -9,3 +9,6 @@ El Libro de Gobstones contiene explicaciones y ejemplos acerca de todos los elem
 <br/>
 <a href="material/libro/BasesConceptualesProg.pdf" target="_blank">descargar libro</a>
 
+<hr/>
+
+<center><img src="imagenes/logo-lamadrid-1.png" />&nbsp;<img src="imagenes/logo-gobstones-1.png" /></center>
