@@ -1,0 +1,53 @@
+program {
+    // punto 4a
+    Mover(Norte)
+    Mover(Este)
+    Poner(Verde)
+    Mover(Este)
+    Poner(Verde)
+    Mover(Norte)
+    Poner(Verde)
+    Mover(Oeste)
+    Poner(Verde)
+    Mover(Oeste)
+    Poner(Verde)
+    Mover(Sur)
+    Poner(Verde)
+    Mover(Sur)
+    Poner(Verde)
+    Mover(Este)
+    Poner(Verde)
+    Mover(Este)
+    Poner(Verde)
+    Mover(Norte)
+    Mover(Oeste)
+
+    /*
+    // i -> Si ya hay bolitas en el tablero coloca una segunda
+    Poner(Verde)
+    Mover(Este)
+    Poner(Verde)
+    Mover(Norte)
+    Poner(Verde)
+    Mover(Oeste)
+    Poner(Verde)
+    Mover(Oeste)
+    Poner(Verde)
+    Mover(Sur)
+    Poner(Verde)
+    Mover(Sur)
+    Poner(Verde)
+    Mover(Este)
+    Poner(Verde)
+    Mover(Este)
+    Poner(Verde)
+    Mover(Norte)
+    Mover(Oeste)
+    */
+    
+    /*
+     * ii -> Siempre hay espacio para colocar bolitas, cuando supera las 99
+     *  aparece un * (asterisco) como contador, recordar que el comando: Poner
+     *  nunca falla (Comando Total).
+     */
+}
