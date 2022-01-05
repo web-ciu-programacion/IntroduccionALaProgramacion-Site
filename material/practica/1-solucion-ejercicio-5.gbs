@@ -1,0 +1,25 @@
+program {
+  /*
+   * NO DAR EL CONTRATO AL INICIO, AL FIN DEL EJERCICIO.
+   *
+   * CONTRATO
+   *   Propósito: Colocar una bolita azul, negra, roja y verde en las celdas 
+   *     lindantes hacia el Este, una por cada celda.
+   *   Precondiciones: El tablero debe tener una dimensión mínima de 4 columnas.
+   */
+   IrAlBorde(Oeste)
+   Poner(Azul)
+   Mover(Este)
+   Poner(Negro)
+   Mover(Este)
+   Poner(Rojo)
+   Mover(Este)
+   Poner(Verde)
+   IrAlBorde(Oeste)
+   
+   /*
+       a) Si es menor a 4 columnas da error, sino funciona correctamente.
+       b) El tablero debe tener una dimensión mínima de 4 columnas.
+       c) Si, ejemplo empeza por el borde Este hacia el Oeste.
+    */
+}

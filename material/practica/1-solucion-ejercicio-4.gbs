@@ -1,0 +1,87 @@
+program {
+    // ---------------------------------------
+    // punto 4a
+    // ---------------------------------------
+    
+    // Ir al centro
+    Mover(Norte)
+    Mover(Este)
+    // Colocar bolitas
+    Poner(Verde)
+    Mover(Este)
+    Poner(Verde)
+    Mover(Norte)
+    Poner(Verde)
+    Mover(Oeste)
+    Poner(Verde)
+    Mover(Oeste)
+    Poner(Verde)
+    Mover(Sur)
+    Poner(Verde)
+    Mover(Sur)
+    Poner(Verde)
+    Mover(Este)
+    Poner(Verde)
+    Mover(Este)
+    Poner(Verde)
+    // Volver al centro
+    Mover(Norte)
+    Mover(Oeste)
+
+    /*
+    // i -> Si ya hay bolitas en el tablero coloca una segunda
+    Poner(Verde)
+    Mover(Este)
+    Poner(Verde)
+    Mover(Norte)
+    Poner(Verde)
+    Mover(Oeste)
+    Poner(Verde)
+    Mover(Oeste)
+    Poner(Verde)
+    Mover(Sur)
+    Poner(Verde)
+    Mover(Sur)
+    Poner(Verde)
+    Mover(Este)
+    Poner(Verde)
+    Mover(Este)
+    Poner(Verde)
+    Mover(Norte)
+    Mover(Oeste)
+    */
+    
+    /*
+     * ii -> Sino hay espacio se produce un error, por ejemplo, si se ejecuta
+     * en un tablero de 3 columnas por 2 filas.
+     */
+    
+    // --------------------------------------- 
+    // punto 4b
+    // ---------------------------------------
+    // Sacar bolitas
+    /*
+    Sacar(Verde)
+    Mover(Este)
+    Sacar(Verde)
+    Mover(Norte)
+    Sacar(Verde)
+    Mover(Oeste)
+    Sacar(Verde)
+    Mover(Oeste)
+    Sacar(Verde)
+    Mover(Sur)
+    Sacar(Verde)
+    Mover(Sur)
+    Sacar(Verde)
+    Mover(Este)
+    Sacar(Verde)
+    Mover(Este)
+    Sacar(Verde)
+    // Volver al centro
+    Mover(Norte)
+    Mover(Oeste)
+    */
+    // i -> Se produce un error en ambos casos
+
+}
