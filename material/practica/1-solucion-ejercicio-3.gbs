@@ -1,0 +1,24 @@
+A) Poner una bolita azul y una roja en la celda actual.
+B) Agregar una bolita azul y una roja.
+C) Pone una bolita verde y luego la saca, para a continuación poner una bolita azul y una roja.
+D) Agregar una bolita roja y una bolita azul en la celda actual.
+E) Agregar dos bolitas en la celda actual.
+
+
+1) No es un propósito, sino una descripción del funcionamiento.Para ser un propósito no debe preocuparse de los estados intermedios, 
+   solamente de la transformación final.
+2) Es un propósito incompleto ya que no establece los colores de las bolitas que se agregan. El propósito debe establecer con 
+   precisión la transformación esperada.
+3) Es una enunciación correcta del propósito. El orden en que se agregan las bolitas es irrelevante, siempre que la celda actual 
+   finalice con una más de cada uno de los colores indicados.
+4) Es un propósito incompleto, ya que no establece dónde se agregan las bolitas en cuestión. El propósito debe establecer con 
+   precisión la transformación esperada.
+5) Es una forma coloquial correcta de indicar la transformación esperada, aunque utiliza un lenguaje que  puede sugerir un 
+   pensamiento operacional (o sea, centrado en las acciones individuales antes que en la transformación esperada).
+
+
+A -> 3
+B -> 4
+C -> 1
+D -> 3 (5 ojo el Agregar)
+E -> 2

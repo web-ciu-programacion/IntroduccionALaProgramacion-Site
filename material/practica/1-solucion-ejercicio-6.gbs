@@ -1,0 +1,87 @@
+program {
+    /*
+        Representación de letras:
+        
+        ***** ***** *   * ***** ***** ***** *   *     * *  *
+        *   * *     ** ** *        *  *   * **  *     * * *
+        ***** *     * * * *****   *   ***** * * *     * *** 
+        *   * *     *   *     *  *    *   * *  ** *   * *  *
+        *   * ***** *   * ***** ***** ***** *   * ***** *   *
+          A     C     M     S     Z     B     N     J     K
+ 
+        Cada letra tiene una tamaño de 5 columnas por 5 filas, la separación 
+        entre cada letra es de una celda. La posición inicial de cada letra 
+        es la primer fila y primer columna de la misma.
+        
+        CONTRATO
+          PROPOSITO: Representar la letra A y M con bolitas verdes; y la 
+          letra C y S con bolitas rojas.
+          PRECONDICIONES: Tablero de 24 columnas y 5 filas.
+     */
+     EscribirLetraA()
+     EscribirLetraM()
+     EscribirLetraC()
+     EscribirLetraS()
+     MoverCabezalAlInicio()
+}
+
+procedure MoverCabezalAlInicio() {
+    /*
+        CONTRATO
+          PROPOSITO: Mover el cabezal a la posición inicial.
+          PRECONDICIONES: No tiene.
+     */
+     IrAlBorde(Sur)
+     IrAlBorde(Oeste)
+}
+
+procedure EscribirLetraA() {
+    /*
+        CONTRATO
+          PROPOSITO: Representar la letra A con bolitas verdes y dejar el 
+            cabezal en la posición inicial de la siguiente letra.
+          PRECONDICIONES: El cabezal debe estar posicionado al inicio de 
+            la letra.
+    */
+    Poner(Verde)    Mover(Norte)    Poner(Verde)    Mover(Norte)
+    Poner(Verde)    Mover(Norte)    Poner(Verde)    Mover(Norte)
+    Poner(Verde)    Mover(Este)    Poner(Verde)    Mover(Este)
+    Poner(Verde)    Mover(Este)    Poner(Verde)    Mover(Este)
+    Poner(Verde)    Mover(Sur)    Poner(Verde)    Mover(Sur)
+    Poner(Verde)    Mover(Sur)    Poner(Verde)    Mover(Sur)
+    Poner(Verde)    Mover(Oeste)    Mover(Oeste)    Mover(Oeste)
+    Mover(Norte)    Mover(Norte)    Poner(Verde)    Mover(Este)
+    Poner(Verde)    Mover(Este)    Poner(Verde)    Mover(Este)
+    Mover(Sur)    Mover(Sur)    Mover(Este)    Mover(Este)
+}
+
+procedure EscribirLetraM() {
+    /*
+        CONTRATO
+          PROPOSITO: Representar la letra M con bolitas verdes y dejar el 
+            cabezal en la posición inicial de la siguiente letra.
+          PRECONDICIONES: El cabezal debe estar posicionado al inicio de 
+            la letra.
+     */
+     Poner(Verde)
+}
+
+procedure EscribirLetraC() {
+    /*
+        CONTRATO
+          PROPOSITO: Representar la letra C con bolitas rojas y dejar el 
+            cabezal en la posición inicial de la siguiente letra.
+          PRECONDICIONES: El cabezal debe estar posicionado al inicio de 
+            la letra.
+     */
+}
+
+procedure EscribirLetraS() {
+    /*
+        CONTRATO
+          PROPOSITO: Representar la letra S con bolitas rojas y dejar el 
+            cabezal en la posición inicial de la siguiente letra.
+          PRECONDICIONES: El cabezal debe estar posicionado al inicio de 
+            la letra.
+     */
+}
