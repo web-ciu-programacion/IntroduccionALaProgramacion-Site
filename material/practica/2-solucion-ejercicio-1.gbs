@@ -1,0 +1,46 @@
+program {
+    PonerGuardaDe5Azulejos()
+}
+
+procedure PonerGuardaDe5Azulejos() {
+    /*
+        CONTRATO
+          PROPOSITO: Poner en la celda actual y en las 4 siguientes al Este un 
+            azulejo, dejando el cabezal en la posición inicial.
+          PRECONDICIONES: Debe haber 4 celdas al Este de la actual.
+     */
+     repeat (5) {
+         PonerGuarda()
+     }
+     IrAlInicio()
+}
+
+procedure PonerGuarda() {
+    /*
+        CONTRATO
+          PROPOSITO: Poner en la celda actual 9 bolitas rojas, 5 negras y 1 verde.
+          PRECONDICIONES: Debe haber una celda lindante al Este.
+     */
+    PonerBolitas(Rojo, 9)
+    PonerBolitas(Negro, 5)
+    PonerBolitas(Verde, 1)
+    Mover(Este)
+}
+
+procedure PonerBolitas(color, cantidad) {
+    /*
+        CONTRATO
+          PROPOSITO: 
+          PARAMETROS: 
+            * color: Indica el color de las bolitas a poner.
+            * cantidad: Indica la cantidad de bolitas a poner.
+          PRECONDICIONES: No tiene.
+     */
+     repeat (cantidad) {
+         Poner(color)
+     }
+}
+
+procedure IrAlInicio() {
+    IrAlBorde(Oeste)    
+}
