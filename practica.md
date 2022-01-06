@@ -11,7 +11,8 @@
 2. División en subtareas y representación de la información <a href="material/practica/2-DivisionEnSubtareasYRepresentacionDeLaInformacion.docx" target="_blank">descargar</a><br/>
    &nbsp;&nbsp;*Requisitos:<br/>
    &nbsp;&nbsp;&nbsp;&nbsp;Realizar práctica 1.<br/>
-   &nbsp;&nbsp;&nbsp;&nbsp;Conceptos teóricos de los apuntes:*<br/>
+   &nbsp;&nbsp;&nbsp;&nbsp;Conceptos teóricos de los apuntes:<br/>
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Repetición simple y parámetros.*<br/>
 3. Parámetros y repetición <a href="material/practica/3-ParametrosYRepeticion.docx" target="_blank">descargar</a><br/>
    &nbsp;&nbsp;*Requisitos:<br/>
    &nbsp;&nbsp;&nbsp;&nbsp;Realizar práctica 2.<br/>
